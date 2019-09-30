@@ -5,10 +5,10 @@ public static void main(String[] a){
 	String normalStr = "I am normal String";
 	
 	String newTxtBlock = """
-	Line1,
+		Line1,
 	Line2,
 	'single quote'
-	"double quote"
+		"double quote"
 	..
 	..
 	Last line.
