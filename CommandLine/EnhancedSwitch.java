@@ -13,7 +13,7 @@ public class EnhancedSwitch{
 			case "TUESDAY"                -> 7;
 			case "THURSDAY","SATURDAY"     -> 8;
 			case "WEDNESDAY"              -> 9;
-			default -> 0;
+			default -> 0; // if default is missing, will throw error - "the switch expression does not cover all possible input values"
 		};
 		System.out.println("num days - " + numLetters);
 	}
